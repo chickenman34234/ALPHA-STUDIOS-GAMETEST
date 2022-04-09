@@ -29,6 +29,6 @@ world.events.tick.subscribe({})
 
 - If you need help be sure to join the [Discord](https://discord.gg/JGDkX2PDsY) and head to the Alpha Studios section.
 
-#extra
+# extra
 
 - This repo will also have example commands added to be to your own packs! This includes things like a inventory checker and auto spam detection.
