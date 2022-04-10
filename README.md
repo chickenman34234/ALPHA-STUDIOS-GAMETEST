@@ -32,3 +32,5 @@ world.events.tick.subscribe({})
 # EXTRA
 
 - This repo will also have example commands added to be to your own packs! This includes things like a inventory checker and auto spam detection.
+# CMD BUILDER 
+-coming soon
