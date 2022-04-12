@@ -32,6 +32,7 @@ world.events.tick.subscribe(tick => {
 })
 
 world.events.playerJoin.subscribe(joiner => {
+  world.getDimension('overworld').runCommand(`say hi ${joiner.player.name}`)
   //commands written here are ran when a player joins the world/realm
   //joiner.a.name would return the player that joined name
 })
