@@ -11,7 +11,7 @@ world.events.beforeChat.subscribe(chat => {
       //Splits the message allowing you to get each word of it eg. args[1] would be the second word (or first word after the cmd name)
   
   switch (cmd) {
-    case 'test': //what you type in chat
+    case 'test': //what you type in chat after command the prefix
     chat.cancel = true //stops the message from showing in chat
       world.getDimension('overworld').runCommand("say Hello World!")
       //runs command 
