@@ -33,5 +33,5 @@ world.events.tick.subscribe(tick => {
 
 world.events.playerJoin.subscribe(joiner => {
   //commands written here are ran when a player joins the world/realm
-  //joiner.player.name would return the player that joined name
+  //joiner.a.name would return the player that joined name
 })
